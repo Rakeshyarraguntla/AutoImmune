@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  line-height: 1.8;
+  color: #898fa1;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #009efd;
+}
+
+.logo-text {
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+.navbar .nav-link {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Sen", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5 rem;
+  padding-left: 0.5 rem;
+}
+.btn {
+  color: white;
+  margin-left: 50px;
+  background: #2af598;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.home-component {
+  overflow-x: scroll;
+  background: linear-gradient(180deg, #009efd 0%, #2af598 100%);
+  opacity: 0.9;
+}
+
+form .form-control {
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border-radius: 0;
+  padding: 20px;
+}
+
+form .form-control:focus {
+  box-shadow: none;
+  border-color: #e93b81;
+}
+
+img {
+  width: 100%;
+}
+
+.home {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.home2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.programs {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 15px;
+}
+
+.row .cards {
+  height: 10rem;
+  margin: 20px;
+  max-width: 500px !important;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #009efd 0%, #2af598 100%);
+  text-align: center;
+  border-radius: 112px;
+  justify-content: center;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.home-heading {
+  font-family: "Enriqueta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 86px;
+  color: white;
+  display: inline !important;
+}
+
+.home-para {
+  font-family: "Enriqueta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.btn-home {
+  margin: 30px;
+  margin-left: 150px;
+  width: 204px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.81);
+  border: 0;
+}
+
+.btn-text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+}
+
+.quote {
+  font-family: "Enriqueta";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: white;
+}
+
+.card-text {
+  font-family: "Enriqueta";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: white;
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(180deg, #009efd 0%, #2af598 100%);
+}
+
+.contact-line {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.card {
+  padding: 50px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(46, 2, 73, 0.3);
+}
+
+.btn-submit {
+  background-color: black;
+  border-radius: 16px;
+  height: 78px;
+  width: 315px;
+  align-items: center;
+  color: white;
+  margin-top: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+.about {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.about-component {
+  overflow-x: scroll;
+  background: linear-gradient(180deg, #009efd 0%, #2af598 100%);
+  opacity: 0.9;
+}
+
+.containers {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.card-left,
+.card-right {
+  flex-basis: calc(50% - 10px);
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Style for the center card */
+.card-center {
+  flex-basis: calc(50% - 50px); /* Updated to give space between cards */
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px; /* Added margin-left */
+  margin-right: 20px; /* Added margin-right */
+}
+
+.carde {
+  height: 20rem;
+  margin: 20px;
+  max-width: 500px !important;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #2AF598 26.56%, #009EFD 100%);
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.team {
+  text-align: center;
+  padding: 100px;
+}
+
+.teams {
+  font-family: 'Enriqueta';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    margin-left: 0px;
+  }
+
+  .logo-text {
+    font-size: 25px;
+  }
+
+  .home-heading {
+    font-size: 28px;
+  }
+
+  .home-para {
+    font-size: 22px;
+  }
+
+  .quote {
+    font-size: 22px;
+  }
+  .card-text {
+    font-size: 22px;
+  }
+
+  .cards {
+    width: 300px;
+  }
+
+  .contact-line {
+    font-size: 12px;
+  }
+
+  input::placeholder {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgba(46, 2, 73, 0.3);
+  }
+
+  .btn-submit {
+    width: 50%;
+    font-size: 12px;
+  }
+  .column {
+    flex: 100%;
+  }
+  .carde {
+    width: 100%;
+  }
+
+  .team {
+    padding: 40px;
+    padding-left: 10px;
+  }
+
+  .teams {
+    font-size: 18px;
+  }
+}
