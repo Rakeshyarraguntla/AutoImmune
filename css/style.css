@@ -6,6 +6,7 @@ body {
   color: #898fa1;
   font-size: 15px;
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -189,10 +190,13 @@ img {
   font-family: "Enriqueta";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 22px;
   line-height: 43px;
   text-align: center;
   color: white;
+  padding: 10px;
+  justify-content: center;
+  padding-top: 30px;
 }
 
 .contact {
@@ -305,7 +309,7 @@ input::placeholder {
 
 .team {
   text-align: center;
-  padding: 100px;
+  margin-top: -100px;
 }
 
 .teams {
@@ -319,6 +323,7 @@ text-align: center;
 color: #FFFFFF;
 
 }
+
 
 @media screen and (max-width: 900px) {
   .btn {
@@ -335,17 +340,23 @@ color: #FFFFFF;
 
   .home-para {
     font-size: 22px;
+    line-height: 30px;
   }
 
   .quote {
     font-size: 22px;
   }
   .card-text {
-    font-size: 22px;
+    font-size: 17px;
+  }
+
+  .card2 {
+    margin-right: 100px;
   }
 
   .cards {
     width: 300px;
+    margin-left: 40px !important;
   }
 
   .contact-line {
@@ -380,4 +391,9 @@ color: #FFFFFF;
   .teams {
     font-size: 18px;
   }
+  .btn-home {
+    margin-left: 90px;
+  }
+
+
 }
