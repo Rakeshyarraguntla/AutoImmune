@@ -202,6 +202,10 @@ img {
 .contact {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.contact-home {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: linear-gradient(180deg, #009efd 0%, #2af598 100%);
 }
 
@@ -249,7 +253,6 @@ input::placeholder {
   font-size: 20px;
   line-height: 30px;
 }
-
 
 .about {
   min-height: 100vh;
@@ -300,7 +303,7 @@ input::placeholder {
   max-width: 500px !important;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #2AF598 26.56%, #009EFD 100%);
+  background: linear-gradient(180deg, #2af598 26.56%, #009efd 100%);
   text-align: center;
   justify-content: center;
   font-size: 24px;
@@ -313,17 +316,28 @@ input::placeholder {
 }
 
 .teams {
-  font-family: 'Enriqueta';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 43px;
-text-align: center;
+  font-family: "Enriqueta";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
+.contact-page {
+  background: linear-gradient(180deg, #009efd 0%, #2af598 100%);
+  background-attachment: fixed;
+  min-height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.contact-body {
+  margin-top: 100px;
+}
 
 @media screen and (max-width: 900px) {
   .btn {
@@ -394,6 +408,4 @@ color: #FFFFFF;
   .btn-home {
     margin-left: 90px;
   }
-
-
 }
